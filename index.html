@@ -1,143 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Signika:300,600"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Chingu Solo Project - Tier 1</title>
-  </head>
 
-  <body class="scroll-two">
-    <header>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__list-item"><a href="">Home</a></li>
-          <li class="nav__list-item"><a href="">About</a></li>
-          <li class="nav__list-item"><a href="">Features</a></li>
-          <li class="nav__list-item">
-            <a
-              href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread"
-              >Add to Slack</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="home" class="home">
-        <div class="home__left">
-          <p class="home__left-title"><strong>Ticky</strong>Bot</p>
-          <p class="home__left-message">
-            Let your team manage their support tickets 100% inside Slack
-          </p>
-          <div
-            class="button button__white"
-            onclick="window.location.href='https://chingu-prework.slack.com/oauth/560975757334.2383ad25b47c4046c141649102b424ec6b5886b02b92100c0a4e4b51d7e420a8'"
-          >
-            <img class="button__img" src="img/slack.svg" alt="# image" />
-            <p>Add to <strong>Slack</strong></p>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Signika:300,600" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Chingu Solo Project - Tier 1</title>
+</head>
+
+<body class="scroll-two">
+  <header>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item"><a href="">Home</a></li>
+        <li class="nav__list-item"><a href="">About</a></li>
+        <li class="nav__list-item"><a href="">Features</a></li>
+        <li class="nav__list-item">
+          <a href="https://slack.com/oauth/authorize?client_id=39189849459.249480535796&scope=commands,bot,users%2Eprofile%3Aread,im%3Aread,chat%3Awrite%3Abot,team%3Aread">Add
+            to Slack</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="home">
+      <div class="home__left">
+        <p class="home__left-title"><strong>Ticky</strong>Bot</p>
+        <p class="home__left-message">
+          Let your team manage their support tickets 100% inside Slack
+        </p>
+        <div class="button button__white" onclick="window.location.href='https://chingu-prework.slack.com/oauth/560975757334.2383ad25b47c4046c141649102b424ec6b5886b02b92100c0a4e4b51d7e420a8'">
+          <img class="button__img" src="img/slack.svg" alt="# image" />
+          <p>Add to <strong>Slack</strong></p>
         </div>
-        <img class="home__right" src="img/tickybot.svg" alt="" />
-      </section>
-      <section class="about" id="about">
-        <h2 class="title">What is <strong>Ticky</strong>Bot</h2>
-        <div class="line"></div>
-        <div class="about__message">
-          <p class="about__message-1">
-            <strong>Ticky</strong>Bot is a Slack Bot 🤖 that lets you use
-            support tickets on Slack. This way, you don't need to leave your
-            beloved channel to assist your users, if you don't feel like it.
-          </p>
-          <p class="about__message-2">
-            With <strong>Ticky</strong>Bot you can easily check if you've
-            received new tickets, change their status, or write a reply, and the
-            ticket will instantly update itself on our site.
-          </p>
-          <p class="about__message-3">
-            Support requests shouldn't be handled through Slack's direct
-            messages.<br />
-            <span
-              >Image about someone asking silly questions and the workplace
-              admin asking him/her to open a support ticket so other admins
-              could look into the issue.</span
-            >
-          </p>
-        </div>
-      </section>
-      <section class="features" id="features">
+      </div>
+      <img class="home__right" src="img/tickybot.svg" alt="" />
+    </section>
+    <section class="about" id="about">
+      <h2 class="title">What is <strong>Ticky</strong>Bot</h2>
+      <div class="line"></div>
+      <div class="about__message">
+        <p class="about__message-1">
+          <strong>Ticky</strong>Bot is a Slack Bot 🤖 that lets you use
+          support tickets on Slack. This way, you don't need to leave your
+          beloved channel to assist your users, if you don't feel like it.
+        </p>
+        <p class="about__message-2">
+          With <strong>Ticky</strong>Bot you can easily check if you've
+          received new tickets, change their status, or write a reply, and the
+          ticket will instantly update itself on our site.
+        </p>
+        <p class="about__message-3">
+          Support requests shouldn't be handled through Slack's direct
+          messages.<br />
+          <span>Image about someone asking silly questions and the workplace
+            admin asking him/her to open a support ticket so other admins
+            could look into the issue.</span>
+        </p>
+      </div>
+    </section>
+    <section class="feature" id="features">
+      <div class="features__title">
         <h2 class="title">How it Works</h2>
         <div class="line"></div>
-        <div class="features__box">
-          <img src="img/" alt="" class="features__box-image" />
-          <p class="features__box-text">
-            You can add TickyBot to your Slack workplace by scrolling down or
-            <a href="">clicking here</a>
-          </p>
+      </div>
+      <div class="features">
+        <div class="features__container">
+          <div class="card__container card-1">
+            <div class="card__container-image">
+              <img src="img/workplace.svg" alt="" class="img">
+            </div>
+            <div class="card__container-text">
+              <p class="text">You can add <strong>Ticky</strong>Bot to your Slack workplace by scrolling down or <a
+                  href="">clicking here</a></p>
+            </div>
+          </div>
+          <div class="card__container card-2">
+            <div class="card__container-image">
+              <img src="img/bubble.svg" alt="" class="img">
+            </div>
+            <div class="card__container-text">
+              <p class="text">Your users can open a ticket by typing <span class="textbox">/ticket</span> and their
+                message into the chat field</p>
+            </div>
+          </div>
+          <div class="card__container card-3">
+            <div class="card__container-image">
+              <img src="img/tasks.svg" alt="" class="img">
+            </div>
+            <div class="card__container-text">
+              <p class="text">Once you or another admin solved their problems you can type <span class="textbox">/ticket</span>
+                <span class="textbox">close #id</span> to close the ticket</p>
+            </div>
+          </div>
         </div>
-        <div class="features__box">
-          <img src="" alt="" class="features__box-image" />
-          <p class="features__box-text">
-            Your users can open a ticket by typing
-            <span class="features__box-text-span">/ticket</span>
-            and their message into the chat field
-          </p>
-        </div>
-        <div class="features__box">
-          <img
-            src="https://tickybott.herokuapp.com/61dc5059d07b210a9e0a7881695a8e03.svg"
-            alt=""
-            class="features__box-image"
-          />
-          <p class="features__box-text">
-            Once you or another admin solved their problems you can type
-            <span class="features__box-text-span">/ticket</span>
-            <span class="features__box-text-span">close #id</span> to close the
-            ticket
-          </p>
-        </div>
-      </section>
-      <section class="addToSlack" id="addToSlack">
-        <h2 class="title">Start Using <strong>Ticky</strong>Bot Today</h2>
-        <div class="line"></div>
-        <p class="addToSlack__text1">
-          <strong>Ticky</strong>Bot allows Slack teams to manage their support
-          tickets 100% inside Slack, without having to switch between different
-          apps.
-        </p>
-        <div class="button">
-          <a
-            href="https://chingu-prework.slack.com/oauth/558631221008.d89510cdf8655e0adc5dad37da4150598a30ca9262bcae95c2e339129c3c3cc2"
-            ><span
-              ><img
-                src="https://tickybott.herokuapp.com/5e594ad76535670e7f227f79c6b72799.svg"
-                alt="# image"/></span
-            >Add to Slack</a
-          >
-        </div>
-        <p class="addToSlack__text">
-          ... so you don't need to go back and forth with another app.
-        </p>
-      </section>
-    </main>
-    <footer>
-      <p class="footer">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit!
-      </p>
-      <p class="footer">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate?
-      </p>
-      <p class="footer">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint commodi
-        nulla quibusdam necessitatibus?
-      </p>
-    </footer>
+      </div>
 
-    <script src="js/script.js"></script>
-  </body>
+    </section>
+    <section class="addToSlack" id="addToSlack">
+      <h2 class="title">Start Using <strong>Ticky</strong>Bot Today</h2>
+      <div class="line"></div>
+      <p class="addToSlack__text1">
+        <strong>Ticky</strong>Bot allows Slack teams to manage their support
+        tickets 100% inside Slack, without having to switch between different
+        apps.
+      </p>
+      <div class="button">
+        <a href="https://chingu-prework.slack.com/oauth/558631221008.d89510cdf8655e0adc5dad37da4150598a30ca9262bcae95c2e339129c3c3cc2"><span><img
+              src="https://tickybott.herokuapp.com/5e594ad76535670e7f227f79c6b72799.svg" alt="# image" /></span>Add to
+          Slack</a>
+      </div>
+      <p class="addToSlack__text">
+        ... so you don't need to go back and forth with another app.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <p class="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit!
+    </p>
+    <p class="footer">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate?
+    </p>
+    <p class="footer">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint commodi
+      nulla quibusdam necessitatibus?
+    </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>
