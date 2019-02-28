@@ -112,6 +112,10 @@ $breakpoint:
     align-self: end;
     justify-self: center;
   }
+  &__blue {
+    background-color: #40596b;
+    color: white;
+  }
 }
 
 // title
@@ -454,5 +458,25 @@ $breakpoint:
         }
       }
     }
+  }
+}
+////////////////////////////
+/////////Add to Slack///////
+////////////////////////////
+.addToSlack {
+  text-align: center;
+  display: grid;
+  font-size: 2rem;
+  &__text1 {
+    padding: 5rem 49rem 8rem 49rem;
+
+    justify-self: center;
+  }
+  &__button {
+    justify-self: center;
+    align-self: center;
+  }
+  &__text {
+    padding: 8rem 49rem 5rem 49rem;
   }
 }

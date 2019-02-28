@@ -76,6 +76,11 @@ $breakpoint:
       justify-self: center;
 }
 
+.button__blue {
+  background-color: #40596b;
+  color: white;
+}
+
 .title {
   padding-top: 3rem;
   text-align: center;
@@ -606,5 +611,30 @@ $breakpoint:
 
 .feature .features__container .card__container-text .text a {
   color: blue;
+}
+
+.addToSlack {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  font-size: 2rem;
+}
+
+.addToSlack__text1 {
+  padding: 5rem 49rem 8rem 49rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.addToSlack__button {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.addToSlack__text {
+  padding: 8rem 49rem 5rem 49rem;
 }
 /*# sourceMappingURL=style.css.map */
