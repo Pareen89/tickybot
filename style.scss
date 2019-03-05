@@ -249,6 +249,26 @@ $darkTextColor2: rgba(0, 0, 0, 0.72);
   }
 }
 
+.scroll__up {
+  height: 5rem;
+  width: 5rem;
+  background-color: $navTextColor;
+  display: grid;
+  border-radius: 0.2rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+
+  a {
+    width: 4rem;
+    justify-self: center;
+    align-self: center;
+  }
+
+
+}
+
 //****************************//
 //           About            //
 //****************************//
