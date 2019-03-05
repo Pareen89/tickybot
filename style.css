@@ -226,6 +226,28 @@ $breakpoint:
   }
 }
 
+.scroll__up {
+  height: 5rem;
+  width: 5rem;
+  background-color: #ffd05a;
+  display: -ms-grid;
+  display: grid;
+  border-radius: 0.2rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  cursor: pointer;
+}
+
+.scroll__up a {
+  width: 4rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
 .about {
   padding: 3rem;
   background-color: #fafafa;
