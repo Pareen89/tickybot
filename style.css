@@ -230,8 +230,7 @@ $breakpoint:
   height: 5rem;
   width: 5rem;
   background-color: #ffd05a;
-  display: -ms-grid;
-  display: grid;
+  display: none;
   border-radius: 0.2rem;
   position: fixed;
   bottom: 2rem;
